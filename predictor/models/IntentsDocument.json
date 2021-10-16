@@ -1,0 +1,265 @@
+{"intents": [
+
+
+   {"tag": "greeting",
+    "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+    "responses": ["Hello", "Hi", "Hi there", "Hey !"]
+   },
+
+
+   {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Ok bye"],
+    "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+   },
+
+
+   {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+   },
+
+
+   {"tag": "about",
+    "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+    "responses": ["I m DocBot, your bot assistant", "I'm DocBot, an Artificial Intelligent bot"]
+   },
+
+
+   {"tag": "name",
+   "patterns": ["what is your name", "what should I call you", "whats your name?"],
+   "responses": ["You can call me DocBot.", "I'm DocBot!", "Just call me as DocBot"]
+   },
+
+
+   {"tag": "help",
+   "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+   "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+   },
+
+
+   {"tag": "createaccount",
+   "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+   "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+   },
+ 
+  {"tag": "complaint",
+
+
+   "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+
+
+   "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+   },
+
+
+{"tag": "Drug Reaction",
+    "patterns": ["Remedies of Drug Reaction"],
+    "responses": [" 1)With a severe allergic reaction to a drug, you’ll likely need to avoid the drug entirely. Talk with your doctor and he will probably try to replace the drug with a different one that you’re not allergic to.   2)If you have a mild allergic reaction to a drug, your doctor may still prescribe it for you. But they may also prescribe another medication to help control your reaction."]
+},
+
+
+{"tag": "Acne vulgaris",
+    "patterns": ["Remedies of Acne vulgaris"],
+    "responses": [" 1)Apply apple cider vinegar 2)Make a honey and cinnamon mask 3) Apply green tea to your skin   4)Apply witch hazel"]
+   },
+
+
+{"tag": "allergy",
+    "patterns": ["Remedies of allergy"],
+    "responses": [" 1)Cleanse your nose  2)Manage stress 3) Try acupuncture 4) Explore herbal remedies"]
+   },
+
+
+{"tag": "arthritis",
+    "patterns": ["Remedies for arthritis"],
+    "responses": [" 1)Manage your weight  2) Get enough exercise 3) Use hot and cold therapy   4)Practice meditation to cope with pain"]
+   },
+
+
+{"tag": "asthma",
+    "patterns": ["Remedies for asthma"],
+    "responses": [" 1) Maintain a healthy and balanced diet, which includes plenty of fruits and vegetables. 2) Buteyko Breathing Technique 3) Papworth method of breathing   4)Have Garlic,Ginger & Honey  5) Practice yoga"]
+   },
+
+
+
+
+{"tag": "Chickenpox",
+    "patterns": ["Remedies for Chickenpox"],
+    "responses": [" 1)Apply calamine lotion. 2) Bathe in oatmeal. 3) Wear mittens to prevent scratching   4)Take baking soda baths  5) Bathe regularly with soap and water"]
+   },
+
+
+{"tag": "common cold",
+    "patterns": ["Remedies for common cold"],
+    "responses": [" 1)Have Chicken soup 2) Eat Ginger. 3) Eat Garlic   4)Have some Honey"]
+   },
+
+
+{"tag": "Dengue",
+    "patterns": ["Remedies for Dengue"],
+    "responses": [" 1)Drink Giloy juice, Papaya leaf juice, Fresh guava juice    2) Eat Fenugreek seeds"]
+   },
+
+
+
+
+{"tag": "Diabetes",
+    "patterns": ["Remedies for Diabetes"],
+    "responses": [" 1)Eat Fenugreek & Bitter Gourd  2) Have Cinnamon in various ways 3) Eat Amla, Drumsticks "]
+   },
+
+
+
+
+{"tag": "Fungal infections",
+    "patterns": ["Remedies for Fungal infections"],
+    "responses": [" 1)Eat Yoghurt and Probiotics    2) Wash with Soap and Water 3) Use Apple Cider Vinegar    4) Use Tea Tree Oil, Aloe Vera   5) Eat garlic regularly"]
+   },
+
+
+{"tag": "GERD",
+    "patterns": ["Remedies for GERD"],
+    "responses": [" 1)Aim for a healthy weight    2) Try avoiding  tomato-based products, fried foods, citrus fruit juices, soda, caffeine, chocolate, garlic, onions 3) Eat a little, sit up a little longer "]
+   },
+
+
+{"tag": "Heart Attack",
+    "patterns": ["Remedies for Healthy Heart"],
+    "responses": [" 1)Quit smoking    2) Keep check and control the cholesterol levels 3) Exercise and be physically fit   4) Choose a diet for a healthy heart   5) Get proper sleep   6) Control the blood sugar level   7) Lose the extra weights "]
+   },
+
+
+{"tag": "Hepatitis B",
+    "patterns": ["Remedies for Hepatitis B"],
+    "responses": [" 1)Eat Plenty of fruits and vegetables    2) Eat whole grains such as oats, brown rice, barley, and quinoa   3) Eat Lean protein such as fish, skinless chicken, egg whites, and beans   4) Have Low-fat or non-fat dairy products   5) Healthy fats like those in nuts, avocados, and olive oil "]
+   },
+
+
+{"tag": "Hypertension ",
+    "patterns": ["Remedies for Hypertension "],
+    "responses": [" 1)Eating a heart-healthy diet with less salt    2) Getting regular physical activity   3) Maintaining a healthy weight or losing weight if you're overweight or obese  4) Limiting the amount of alcohol you drink"]
+   },
+
+
+{"tag": "Hyperthyroidism ",
+    "patterns": ["Remedies for Hyperthyroidism "],
+    "responses": [" 1)Avoid iodized salt, Seafood & dairy products   2) Avoid high amounts of poultry or beef & egg yolks  3) Avoid high amounts of grain products (such as bread, pasta, and pastries)"]
+   },
+
+{"tag": "Hypoglycemia",
+    "patterns": ["Remedies for Hypoglycemia"],
+    "responses": [" 1)Eat raisins & medjool dates  2) Eat Bananas, grapes, pineapple 3) Drink 100% grape juice, honey or maple syrup"]
+   },
+
+
+
+
+{"tag": "Impetigo",
+    "patterns": ["Remedies for Impetigo"],
+    "responses": [" 1)Apply aloe gel to the skin directly    2) Place the cut side of a slice of garlic directly on impetigo sores   3) Place a slice of ginger, cut side down, on impetigo sores    4) Dilute a few drops of eucalyptus essential oil in water. Apply this mixture as a topical wash on impetigo sores   5)Apply either type of honey directly to impetigo sores, and let it sit for 20 minutes. Rinse with warm water   6) Try applying a turmeric poultice directly to impetigo sores. You can do this by mixing water with turmeric powder to make a paste"]
+   },
+
+
+
+
+{"tag": "Jaundice",
+    "patterns": ["Remedies for Jaundice"],
+    "responses": [" 1) Drink Sugarcane Juice, Green Grapes’ Juice   2) Drink Goat’s milk  3) Eat Ginger, Garlic   4) Eat Lemon, Amla   5) Drink Yogurt"]
+   },
+
+
+
+
+{"tag": "malaria",
+    "patterns": ["Remedies for malaria"],
+    "responses": [" 1)Add cinnamon and black pepper powder in hot water. Add some honey to it for enhancing taste. Drink it once or twice a day   2) Drink a glass of turmeric milk every night to deal with malaria   3)  you can have orange juice in between your meals   4) Add ginger in hot water. Add honey to the concoction and drink it twice a day   5) Fresh juice extracted from sweet lime  6) Dilute apple cider vinegar with water and soak cloth in it. Place it on your forehead for 10 minutes"]
+   },
+
+
+{"tag": "migraine",
+    "patterns": ["Remedies for migraine"],
+    "responses": [" 1)Put an ice pack on your forehead, scalp, or neck to get pain relief 2) Have Caffeine which is an ingredient in coffee and some other foods and drinks may give you some mild relief    3) Sit in a Dark, Quiet Room    4) When you feel well, a regular workout can prevent headaches  5) Eat Dark-green veggies, whole grains, and nuts  6) You should sleep well"]
+   },
+
+
+{"tag": "Peptic ulcer disease",
+    "patterns": ["Remedies for Peptic ulcer disease"],
+    "responses": [" 1)Eat Foods and drinks that are rich in flavonoids such as soybeans, legumes, red grapes, broccoli, apples & berries, green tea    2) Drink Buttermilk & yogurt 3) Have honey   4) Eat Garlic   5) Eat Fruits, vegetables, and whole grains"]
+   },
+
+
+
+
+{"tag": "Pneumonia",
+    "patterns": ["Remedies for Pneumonia"],
+    "responses": [" 1)Do a saltwater gargle   2) Drink hot peppermint tea  3) Drink warm water  4) Have a bowl of soup   5) Eat nutritious foods & drinking lots of fluids"]
+   },
+
+
+
+
+{"tag": "tuberculosis",
+    "patterns": ["Remedies for tuberculosis"],
+    "responses": [" 1)Foods rich in vitamins A, C, B complex and E like like tomato, orange, carrot, mango, sweet pumpkin, guava, amla, and nuts, fish and chicken   2) Protein-rich food like eggs, cottage cheese, and soya   3) Nuts, sunflower seeds, chia seeds, flax seeds, and pumpkin seeds  4) Eat Bananas, peanut chikki, cereal porridge and ragi   5) Adding fresh garlic to a regular diet  6) Use fresh mint leaves to flavor drinks  6) Black pepper, when crushed and fried in butter can treat tuberculosis  "]
+},
+
+
+
+
+{"tag": "Typhoid",
+    "patterns": ["Remedies for Typhoid"],
+    "responses": [" 1)Increase Fluid Intake like fruit juices, coconut water, and soups  2) use cold compresses to bring down the temperature    3) Drink ORS     4) Eat Basil, Garlic    5) Eat Bananas,Pomegranates    6) Drink only boiled water     7) Do not indulge in sweetened beverages and a big NO to coffee   8) Avoid using raw vegetables and fruits that you cannot peel   9) Consume curd, yogurt, and buttermilk to balance the intestinal bacterial flora  10) Bed rest is essential because the disease causes a lot of weakness"]
+ },
+
+
+
+
+{"tag": " Urinary tract infection ",
+    "patterns": ["Remedies for Urinary tract infection "],
+    "responses": [" 1)Drink Plenty of Fluids    2) Increase Vitamin C Intake by having Red peppers, oranges, grapefruit and kiwifruit   3) Drink Unsweetened Cranberry Juice   4) Eat Yogurt  "]
+ },
+
+
+{"tag": " Varicose veins  ",
+    "patterns": ["Remedies for Varicose veins"],
+    "responses": [" 1) Regular exercise encourages better blood circulation in the legs. 2) Eat almonds and pistachio nuts, lentils and white beans, potatoes, leafy vegetables, some fish, such as salmon and tuna   3) Eat nuts, seeds, and legumes, oats, wheat, and flaxseed,whole-grain foods    4) Choose non-restrictive clothing   5) Massage : Gently massaging the affected areas can help to keep the blood moving through the veins, a person can use gentle massage oils or moisturizer for optimal effect   6) Keep moving: Avoid sitting for long periods of time, avoid sitting with crossed legs "]
+ },
+
+
+{"tag": " Hepatitis A ",
+    "patterns": ["Remedies for Hepatitis A "],
+    "responses": [" 1)Eat a Healthy, Well-Balanced Diet    2) Stay Hydrated  3) Get Plenty of Rest and Reduce Stress   4) Try Peppermint Oil   5) Drink Ginger Tea "] 
+},
+
+
+{"tag": "Query1",
+    "patterns": ["What are the side effects of covid-19 vaccine","effects of covid vaccine"],
+    "responses": ["common side effects include a sore arm, tiredness, headache, fever, aches and chills","it’s common to get some mild side effects after having a COVID-19 vaccine","The covid vaccine can cause tenderness and swelling of the underarm on the side you had the injection, a rash, redness or hives where you had the injection.","The most common side effects of COVID-19 vaccine includes, pain or soreness in the arm where you had the injection, tiredness, headache, muscle aches and joint pains, fever, chills and feeling or being sick"] 
+},
+
+{"tag": "Query2",
+    "patterns": ["How long do the side effects of covid-19 last","How long do the side effects of covid last"],
+    "responses": ["Side effects of the covid vaccine usually go away within a day or 2 and don’t last for more than a week","Mild side effects are normal, and a sign that your body’s immune system is responding to the vaccine and learning how to fight the virus. They usually go away within a few days and shouldn't last longer than a week."] 
+},
+
+{"tag": "Query3",
+  "patterns":["How to treat side effects of covid or covid19 or covid-19", "treat side effects of covid or covid-19"],
+  "responses":["Try to rest as much as possible. You can take common painkillers to help with symptoms such as headache and fever – just make sure they're suitable for you and follow the instructions on the packaging."]
+
+},
+
+{"tag": "Query4",
+  "patterns":["What is covid vaccine?","Is covid vaccine reliable?","covid vaccine good?","can I trust covid vaccine?"],
+  "responses":["All the approved COVID-19 vaccines have been thoroughly tested for safety and effectiveness"]
+
+},
+
+{"tag": "Query5",
+  "patterns":["How do COVID-19 vaccines work?","how covid vaccine good for me?"],
+  "responses":["A vaccine works by training your body’s defences (immune system) to spot and fight off the virus or bacteria it’s designed for. If you’re then exposed to those germs, the vaccine will stop you from getting ill."]
+
+}
+
+]
+}
