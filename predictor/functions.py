@@ -4,6 +4,7 @@ import joblib
 import numpy as np
 import re
 
+from googletrans import Translator
 from nltk.util import ngrams, pr
 from nltk.corpus import wordnet as wn
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -254,3 +255,9 @@ def diagonsis_function(sentence):
     if(probabs[0][ind[0][i]]>0.010):
       list_prob_dis.append({'disease' :le.inverse_transform([ind[0][i]])[0] ,'probablities':round(probabs[0][ind[0][i]]*100, 2)})
   return list_prob_dis
+
+
+def translate_function(text):
+  t = Translator()
+  print(text)
+  return t.translate(text, dest="hi")

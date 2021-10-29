@@ -19,6 +19,6 @@ from predictor import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('predict/', views.call_model.as_view())
-    
+    path('predict/', views.call_model.as_view()),
+    path('translate/', views.translate_langauge)    
 ]
