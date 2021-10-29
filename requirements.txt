@@ -125,8 +125,6 @@ python-dotenv==0.13.0
 pyttsx3==2.90
 pytz==2020.1
 PyWavelets==1.1.1
-pywin32==302
-pywin32-ctypes==0.2.0
 razorpay==1.2.0
 readme-renderer==29.0
 regex==2021.9.24
