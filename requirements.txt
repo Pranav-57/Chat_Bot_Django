@@ -30,7 +30,6 @@ djangorestframework==3.12.4
 djangorestframework-simplejwt==4.8.0
 djoser==2.1.0
 filelock==3.0.12
-Flask==1.1.2
 flatbuffers==1.12
 gast==0.4.0
 google-auth==1.35.0
@@ -111,7 +110,6 @@ tensorboard-plugin-wit==1.8.0
 termcolor==1.1.0
 threadpoolctl==2.2.0
 tokenizers==0.10.3
-torchvision==0.10.0
 tqdm==4.62.1
 transformers==4.9.2
 typing-extensions==3.7.4.3
