@@ -106,7 +106,6 @@ protobuf==3.18.0
 psycopg2==2.8.6
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Pranav%20Aher/Pyaudio/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 pycodestyle==2.6.0
 pycparser==2.20
 pygame==2.0.0
