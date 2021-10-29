@@ -117,6 +117,5 @@ uritemplate==3.0.1
 urllib3==1.26.7
 waitress==2.0.0
 Werkzeug==2.0.1
-whitenoise==5.1.0
 wrapt==1.12.1
 yarl==1.6.3
